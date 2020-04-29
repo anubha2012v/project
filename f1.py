@@ -17,4 +17,5 @@ public_tweets=api.search('lockdown')
 for tweet in public_tweets:
     print(tweet.text)
     analysis=TextBlob(tweet.text)
-    print(analysis)
+    print(analysis.sentiment)
+    print(" ")
