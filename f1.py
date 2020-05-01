@@ -4,8 +4,8 @@ from textblob import TextBlob
 consumer_key='7KR7D3P1aSDompKTypJO99YFk'
 consumer_secret='PHUvJSHGMoVrXhpKYwFcSoIvoBn1qViy6a9ORklEVWsQBgQuO0'
 
-access_token='1241559837252575232-dco9Y6ozavq3pCwTozFLpmC9QFHxql'
-access_token_secret='aMDb57gFKq2kBCpssZAQ6L7hkgAAC9LkVFZyRRukfULxu'
+access_token='1241559837252575232-2of8dDZcrG4ENzIbSP4uo9k41VJuZR'
+access_token_secret='AqEzRw2UPVjxQGkwd1vMLaTotln3nRuaMLoppEzJl6IPn'
 
 auth=tweepy.OAuthHandler(consumer_key,consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
